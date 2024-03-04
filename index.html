@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Analyzer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Website Analyzer</h1>
+
+        <form id="analyze-form" class="mb-4">
+            <div class="form-group">
+                <label for="url">Enter URL:</label>
+                <input type="text" id="url" name="url" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Analyze</button>
+        </form>
+
+        <form id="upload-form" enctype="multipart/form-data" class="mb-4">
+            <div class="form-group">
+                <label for="csv">Upload CSV:</label>
+                <input type="file" id="csv" name="csv" accept=".csv" class="form-control-file" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+
+        <a href="results/results-field.csv" download class="btn btn-success mb-2">Download Field Results</a>
+        <br>
+        <a href="results/results-test.csv" download class="btn btn-success">Download Test Results</a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
