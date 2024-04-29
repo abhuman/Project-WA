@@ -14,10 +14,10 @@ Script to extract Google PageSpeed API Data from multiple URLs. The script allow
 
    ```bash
    # Git
-   git clone https://github.com/jlhernando/google-pagespeed-bulk.git
+   git clone https://github.com/abhuman/Project-WA.git
 
    # OR Github's CLI
-   gh repo clone https://github.com/jlhernando/google-pagespeed-bulk
+   gh repo clone https://github.com/abhuman/Project-WA
    ```
 
 3. Install the modules from the script. Type in your terminal:
