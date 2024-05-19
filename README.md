@@ -1,4 +1,4 @@
-# Google PageSpeed Insights API for Node.js
+# Project-WA (Website url Analyzer)
 
 Script to extract Google PageSpeed API Data from multiple URLs. The script allows to perform multiple tests in the same run and calculate the median value for each extracted speed metric and Core Web Vitals metric from the total number of results.
 
