@@ -1,4 +1,4 @@
-// Phillip Obosi - https://scotch.io/courses/the-ultimate-guide-to-javascript-algorithms/array-chunking
+
 
 export const chunkArray = (array, size) => {
   let result = []
@@ -8,3 +8,4 @@ export const chunkArray = (array, size) => {
   }
   return result
 }
+
